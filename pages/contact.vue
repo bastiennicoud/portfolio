@@ -1,7 +1,7 @@
 <template lang="pug">
 section(class='section')
-  h1 Mon portfolio
-  nuxt-link(:to={name:'contact'}) Contact
+  h1 Me contacter
+  nuxt-link(:to={name:'index'}) Home
 </template>
 
 <script>
@@ -12,5 +12,5 @@ export default {
 
 <style lang="sass" scoped>
 h1
-  color: red
+  color: blue
 </style>

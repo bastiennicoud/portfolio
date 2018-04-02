@@ -3,17 +3,17 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'bastiennicoud',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My personal portfolio' },
+      { hid: 'description', name: 'description', content: 'Bastien Nicoud' },
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-title', content: 'Bastien Nicoud' },
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'apple-touch-startup-image', href: '/launch.png'}
     ]
   },
@@ -21,6 +21,12 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#ea5b57' },
+  /*
+  ** Load global css
+  */
+  css: [
+    '~/css/main.sass'
+  ],
   /*
   ** Build configuration
   */

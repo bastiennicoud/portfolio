@@ -13,7 +13,7 @@ module.exports = {
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'apple-touch-startup-image', href: '/launch.png'}
     ]
   },
